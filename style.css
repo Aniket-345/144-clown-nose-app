@@ -1,0 +1,23 @@
+h3{
+    font-size: 25px !important;
+    width: 50%;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+#button{
+    width: 10%;
+}
+#button:hover{
+    background-color: rgb(76, 233, 147);
+    border: 0 !important;
+}
+canvas{
+    animation-name: fillter;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes fillter{
+    from{box-shadow:5px 5px 60px  red;}
+    to{box-shadow:5px 5px 60px  blue;}
+}
